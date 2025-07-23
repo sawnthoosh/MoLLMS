@@ -69,7 +69,7 @@ Each model is independently trained for a specific domain:
 
 The full technical white paper describing the system, architecture, benefits, and use cases is available here:
 
-👉 [`WHITEPAPER.pdf`](./WHITEPAPER.pdf)
+👉 [`WHITEPAPER.pdf`](https://github.com/sawnthoosh/MoLLMS/blob/50acd430224481f0bbfad8ed08af1c9098deae5a/Mo%20Llm%20White%20Paper.pdf)
 
 ---
 
