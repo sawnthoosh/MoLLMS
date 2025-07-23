@@ -35,4 +35,58 @@ Each model is independently trained for a specific domain:
 
 ## 🔄 Workflow
 
+### 🔧 Example:
+> **Query:** "Build a portfolio website for me"  
+> → Routed to: `Coding/Web Dev LLM`  
+> → Output: Fully functional HTML/CSS/JS template
+
+---
+
+## 🎯 Why MoLLM?
+
+| Feature                        | MoLLM Advantage                              |
+|-------------------------------|----------------------------------------------|
+| 🔍 Accuracy                   | High-quality output from domain experts       |
+| ⚡ Efficiency                 | Reduced compute via targeted LLMs            |
+| 🧩 Scalability               | Plug-and-play new LLMs as modules             |
+| 🔄 Modularity                | Update or replace LLMs independently          |
+| 🚀 Performance               | Faster results with leaner expert models      |
+
+---
+
+## 🔬 MoLLM vs Traditional MoE
+
+| Feature         | Mixture of Experts (MoE)         | MoLLM (Your System)                     |
+|----------------|----------------------------------|------------------------------------------|
+| Experts         | Internal FFNs inside one model   | Entire independent LLMs                  |
+| Routing         | Per-token or sub-layer           | Per-query                                |
+| Training        | End-to-end in one model          | Independent training + router learning   |
+| Deployment      | One massive model                | Distributed LLMs + Router service        |
+
+---
+
+## 📄 White Paper
+
+The full technical white paper describing the system, architecture, benefits, and use cases is available here:
+
+👉 [`WHITEPAPER.pdf`](./WHITEPAPER.pdf)
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License** – see the [LICENSE](./LICENSE) file for details.
+
+---
+
+## 👤 Author
+
+Built by **Golla Santhosh Kumar**  
+📧 santgolla9@gmail.com
+
+---
+
+## ⭐️ Star this repo if you like the idea and want to support future updates!
+
+
 
